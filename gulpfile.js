@@ -14,6 +14,7 @@
 var gulp = require('gulp');
 var requireDir = require('require-dir');
 
-gulp.task('default', function() {
+console.info('ENVIRONMENT: ' + process.env.NODE_ENV);
 
-});
+requireDir('./gulp/tasks', { recurse: true });
+

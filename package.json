@@ -19,6 +19,9 @@
   },
   "devDependencies": {
     "require-dir": "^0.1.0"
+  },
+  "scripts": {
+    "build": "gulp"
   }
   
 }
